@@ -1,0 +1,30 @@
+.container {
+    padding: 10px;
+}
+
+.gallery_resultDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 5vw;
+}
+
+.gallery__card {
+    width: 500px;
+    height: 350px;
+}
+
+.gallery__image {
+    width: 450px;
+    height: 330px;
+    margin-top: 20px;
+}
+
+.gallery__author {
+    display: flex;
+}
+
+.gallery__author::before {
+    content: 'Author:';
+    font-weight: bold;
+}
